@@ -9,9 +9,18 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1, p {
+h1 {
     text-align: center;
-    color: aqua;
+    color: White;
+    background-color: rgb(214, 70, 70);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    text-align: center;
+    color: rgb(252, 145, 14);
 }
 form {
     width: 55%;
