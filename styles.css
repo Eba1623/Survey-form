@@ -38,14 +38,6 @@ label {
     border-radius: 5px;
     margin: 10px 0;
 }
-#submit {    
-    width: 96%;
-    background-color: rgb(6, 221, 38);
-    border: none;
-    border-radius: 5px;
-    height: 3em;
-    color: white;
-}
 textarea{
     display: block;
     width: 96%;
@@ -53,4 +45,18 @@ textarea{
 }
 ::placeholder {
     font-size: 16px;
+}
+#submit {    
+    width: 96%;
+    background-color: rgb(6, 221, 38);
+    border: none;
+    border-radius: 5px;
+    height: 3em;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+#submit:hover {
+    background-color: rgb(19, 72, 170);
+    color: white;
 }
